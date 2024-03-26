@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_player",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_player",
   "overriddenProperties":[],
@@ -22,7 +24,7 @@
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[],
-  "physicsStartAwake":true,
+  "physicsStartAwake":false,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
