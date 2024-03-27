@@ -17,6 +17,7 @@
   "ResourceOrderSettings":[
     {"name":"ob_grunt","order":1,"path":"objects/ob_grunt/ob_grunt.yy",},
     {"name":"obj_shooter","order":2,"path":"objects/obj_shooter/obj_shooter.yy",},
+    {"name":"obj_bullet","order":3,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"spr_grunt","order":4,"path":"sprites/spr_grunt/spr_grunt.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_rock_big","order":2,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
