@@ -20,31 +20,12 @@ y = y + 6.5;
 
 if keyboard_check_pressed(vk_space)
 {
-	instance_create_layer(x,y,"Instances",obj_bullet);
-	
-	if (powerup ==1)
-		{
-			var _bullet	= instance_create_layer(x+30,y+25,"Instances", obj_sbullet);
-			_bullet	= instance_create_layer(x-30,y+25,"Instances", obj_sbullet);
-		}
-		
-	if (powerup ==2)
-		{
-			var _bullet	= instance_create_layer(x+30,y+25,"Instances", obj_sbullet);
-			_bullet	= instance_create_layer(x-30,y+25,"Instances", obj_sbullet);
-			var _dbullet	= instance_create_layer(x,y,"Instances", obj_bullet);
-			_dbullet.direction +=10;
-			_dbullet	= instance_create_layer(x,y,"Instances", obj_bullet);
-			_dbullet.direction -=10;
-			
-		}
-	}
+	instance_create_layer(x,y,"Instances",obj_bullet)
+}
 
 
- 
 move_wrap(false, false, sprite_width);
 	
 x = clamp(x,0, room_width);
 
 y= clamp(y,0,room_height);
-
