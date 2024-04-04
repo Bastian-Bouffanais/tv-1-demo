@@ -8,8 +8,8 @@
   "name":"obj_controls",
   "overriddenProperties":[],
   "parent":{
-    "name":"Proyecto Track",
-    "path":"Proyecto Track.yyp",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

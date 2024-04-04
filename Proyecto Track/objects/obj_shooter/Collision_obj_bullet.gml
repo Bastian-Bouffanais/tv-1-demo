@@ -1,6 +1,9 @@
 instance_destroy(other);
-effect_create_above(ef_explosion, x, y, 1.5, c_red);
+s_health-=1;
 
-obj_game.points += 100;
 
-instance_destroy();
+if s_health==0
+{
+	instance_destroy();
+	obj_game.points+= 100;
+}
