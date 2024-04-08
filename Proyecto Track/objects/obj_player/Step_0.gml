@@ -20,19 +20,19 @@ y = y + 6.5;
 
 if keyboard_check_pressed(vk_space)
 {
-	instance_create_layer(x,y,"Instances",obj_bullet);
+	instance_create_layer(x+0.5,y,"Instances",obj_bullet);
 	
 	if (powerup ==1)
 		{
-			var _bullet	= instance_create_layer(x+30,y+25,"Instances", obj_sbullet);
-			_bullet	= instance_create_layer(x-30,y+25,"Instances", obj_sbullet);
+			var _bullet	= instance_create_layer(x+15.5,y+25,"Instances", obj_sbullet);
+			_bullet	= instance_create_layer(x-15.5,y+25,"Instances", obj_sbullet);
 		}
 		
 	if (powerup ==2)
 		{
-			var _bullet	= instance_create_layer(x+30,y+25,"Instances", obj_sbullet);
-			_bullet	= instance_create_layer(x-30,y+25,"Instances", obj_sbullet);
-			var _dbullet	= instance_create_layer(x,y,"Instances", obj_bullet);
+			var _bullet	= instance_create_layer(x+15.5,y+35,"Instances", obj_sbullet);
+			_bullet	= instance_create_layer(x-15.5,y+35,"Instances", obj_sbullet);
+			_dbullet	= instance_create_layer(x,y,"Instances", obj_bullet);
 			_dbullet.direction +=10;
 			_dbullet	= instance_create_layer(x,y,"Instances", obj_bullet);
 			_dbullet.direction -=10;

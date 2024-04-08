@@ -1,4 +1,4 @@
-instance_create_layer(random(room_width),room_height,"Instances",obj_shooter);
+instance_create_layer(room_width,random(room_height),"Instances",obj_shooter);
 
 
 

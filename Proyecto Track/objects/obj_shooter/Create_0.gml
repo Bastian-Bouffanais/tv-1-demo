@@ -1,5 +1,5 @@
 speed= 8.0;
-s_health=3;
+s_health=5;
 
 
 if instance_exists(obj_player) direction=point_direction(x,y, obj_player.x, obj_player.y);

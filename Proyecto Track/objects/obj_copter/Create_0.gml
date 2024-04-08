@@ -1,5 +1,5 @@
-c_health =50
-speed=0;
+c_health =75
+speed=1.5;
 
 
 

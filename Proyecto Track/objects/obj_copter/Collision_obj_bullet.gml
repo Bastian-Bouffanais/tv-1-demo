@@ -1,7 +1,7 @@
-c_health -=1;
+c_health -=1.5;
 instance_destroy(other);
 
-if c_health==0
+if c_health<=0
 {
 	obj_game.points +=500;
 	instance_destroy();

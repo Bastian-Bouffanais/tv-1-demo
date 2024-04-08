@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"R_F16_6",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
   "bbox_left":3,
   "bbox_right":60,
@@ -23,7 +23,7 @@
   ],
   "name":"R_F16_6",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -75,8 +75,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":32,
+    "yorigin":7,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
